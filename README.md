@@ -31,9 +31,7 @@ pip install -r requirements.txt
 The dataset used in this project is publicly available on [Kaggle](https://www.kaggle.com/datasets/free4ever1/instagram-fake-spammer-genuine-accounts) under the [Attribution 3.0 Unported](https://creativecommons.org/licenses/by/3.0/) license.
 
 ## Data Analysis
-The dataset comprises various features, including follower/following count, description length, post count, the presence of an external URL, and the ratio of numerical characters to the total length of the username. To get a first feeling for the most important features, mutual information scores were plotted (see screenshot below). As expected, features like the number of followers or the like_engagement_rate play a significant role in determining whether or not a user is a content creator.
-
-After conducting permutation importance analysis using a quick and simple model, the results confirmed that follower count was the most influential feature, which is unsurprising. The figure below illustrates how a very low follower count serves as a strong indicator of a likely fake account.
+The dataset comprises various features, including follower/following count, description length, post count, the presence of an external URL, and the ratio of numerical characters to the total length of the username. After conducting permutation importance analysis using a quick and simple model, the results confirmed that follower count was the most influential feature, which is unsurprising. The figure below illustrates how a very low follower count serves as a strong indicator of a likely fake account.
 
 ![Follower Histplot](./figures/follower-histplot.png)
 
