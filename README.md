@@ -44,7 +44,7 @@ Additionally, many fake accounts exhibit a tendency to use a substantial number 
 ![Username Numerical Ratio](./figures/user-num-ratio.png)
 
 ## Data Pipeline and Feature Engineering
-The following decisions were made for our data pipeline and feature engineering:
+The following decisions were made for the data pipeline and feature engineering:
 1. Fullname/Username Num Ratio columns: **Feature engineering** was performed using **PCA** to create two new columns representing the axes with the highest variance.
 2. Follower and Following columns: **Feature engineering** was applied to add a new column indicating the Follower/Following ratio.
 3. Boolean features: **Feature engineering** included the generation of a cumulative count column per row.
