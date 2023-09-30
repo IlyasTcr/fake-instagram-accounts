@@ -1,4 +1,4 @@
-# Instagram Spam Detection: A Data-Driven Approach to Identifying Fake Profiles
+# Instagram Spam Detection: A Data-Driven Approach to Identify Fake Profiles
 
 ## Table of Contents
 1. [Motivation](#motivation)
